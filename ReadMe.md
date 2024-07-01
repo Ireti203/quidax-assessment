@@ -1,6 +1,6 @@
 # Quidax Assesment
 
-### This repository contains automated tests developed for an assessment, leveraging Cypress.js for web-based testing.
+### Here are the steps required to execute the tests in this repository’s
 
 **Prerequisites**
 
