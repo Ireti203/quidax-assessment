@@ -17,10 +17,10 @@ Installation
 `npm install`
 
 
-**To run Cypress tests headlessly from the terminal, use the command below** :
+**To run tests headlessly from the terminal, use the command below** :
 
 `npx cypress run --spec cypress/e2e/index.spec.cy.js`
 
-**To run Cypress tests interactively using the Cypress Test Runner, use the command below** :
+**To run tests interactively using the Cypress Test Runner, use the command below** :
 
 `npx cypress open`

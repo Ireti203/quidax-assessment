@@ -48,7 +48,7 @@ describe('Select List Demo Tests', () => {
     selectListDemoPage.assertSelectedOption('Monday');
   });
 
-  it('Should select option from the multiple dropdown list', () => {
+  it('Should select option(s) from the multiple dropdown list', () => {
     selectListDemoPage.multiSelect('Texas');
     selectListDemoPage.submitFirstSelected();
     selectListDemoPage.assertSelectedOptions('First selected option is : Texas');
@@ -99,6 +99,4 @@ describe('Bootstrap Modals Tests', () => {
     bootstrapModalsPage.openSingleModal();
     bootstrapModalsPage.assertSingleModalCloses();
   });
-
-  
 });
